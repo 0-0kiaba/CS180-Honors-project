@@ -1,0 +1,445 @@
+{
+  "@context": [
+    "https://geojson.org/geojson-ld/geojson-context.jsonld",
+    {
+      "@version": "1.1",
+      "wx": "https://api.weather.gov/ontology#",
+      "@vocab": "https://api.weather.gov/ontology#"
+    }
+  ],
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d0a1217ddc57e2a10d27bece18c8d69619e708b8.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d0a1217ddc57e2a10d27bece18c8d69619e708b8.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.d0a1217ddc57e2a10d27bece18c8d69619e708b8.001.1",
+        "areaDesc": "Boone; McHenry; Lake; De Kalb; Kane; DuPage; Kendall; Grundy; Kankakee; Iroquois; Northern Cook; Central Cook; Southern Cook; Northern Will; Southern Will; Eastern Will; Lake; Porter; Newton; Jasper; Benton",
+        "geocode": {
+          "SAME": [
+            "017007",
+            "017111",
+            "017097",
+            "017037",
+            "017089",
+            "017043",
+            "017093",
+            "017063",
+            "017091",
+            "017075",
+            "017031",
+            "017197",
+            "018089",
+            "018127",
+            "018111",
+            "018073",
+            "018007"
+          ],
+          "UGC": [
+            "ILZ004",
+            "ILZ005",
+            "ILZ006",
+            "ILZ011",
+            "ILZ012",
+            "ILZ013",
+            "ILZ020",
+            "ILZ021",
+            "ILZ023",
+            "ILZ033",
+            "ILZ103",
+            "ILZ104",
+            "ILZ105",
+            "ILZ106",
+            "ILZ107",
+            "ILZ108",
+            "INZ001",
+            "INZ002",
+            "INZ010",
+            "INZ011",
+            "INZ019"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/ILZ004",
+          "https://api.weather.gov/zones/forecast/ILZ005",
+          "https://api.weather.gov/zones/forecast/ILZ006",
+          "https://api.weather.gov/zones/forecast/ILZ011",
+          "https://api.weather.gov/zones/forecast/ILZ012",
+          "https://api.weather.gov/zones/forecast/ILZ013",
+          "https://api.weather.gov/zones/forecast/ILZ020",
+          "https://api.weather.gov/zones/forecast/ILZ021",
+          "https://api.weather.gov/zones/forecast/ILZ023",
+          "https://api.weather.gov/zones/forecast/ILZ033",
+          "https://api.weather.gov/zones/forecast/ILZ103",
+          "https://api.weather.gov/zones/forecast/ILZ104",
+          "https://api.weather.gov/zones/forecast/ILZ105",
+          "https://api.weather.gov/zones/forecast/ILZ106",
+          "https://api.weather.gov/zones/forecast/ILZ107",
+          "https://api.weather.gov/zones/forecast/ILZ108",
+          "https://api.weather.gov/zones/forecast/INZ001",
+          "https://api.weather.gov/zones/forecast/INZ002",
+          "https://api.weather.gov/zones/forecast/INZ010",
+          "https://api.weather.gov/zones/forecast/INZ011",
+          "https://api.weather.gov/zones/forecast/INZ019"
+        ],
+        "references": [],
+        "sent": "2024-11-20T15:19:00-06:00",
+        "effective": "2024-11-20T15:19:00-06:00",
+        "onset": "2024-11-20T15:19:00-06:00",
+        "expires": "2024-11-20T21:30:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Chicago IL",
+        "headline": "Special Weather Statement issued November 20 at 3:19PM CST by NWS Chicago IL",
+        "description": "A 2-3 hour long period of moderate to heavy snowfall is expected\non Thursday during the late morning and early afternoon, likely\nleading to slushy snow accumulations occurring on roadways.\nStrong west-northwesterly winds gusting to 40-45 mph during the\nsnowfall will cause sharply reduced visibilities, which will\nfurther exacerbate the hazardous travel conditions. Motorists\nshould use caution when traveling in these conditions and allow\nfor extra travel time to reach their destination.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+          "AWIPSidentifier": [
+            "SPSLOT"
+          ],
+          "WMOidentifier": [
+            "WWUS83 KLOT 202119"
+          ],
+          "NWSheadline": [
+            "Period of Moderate to Heavy Wind-Whipped Snow on Thursday"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e58380eba0ea7249fb0ca597f276561edc1b9e49.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e58380eba0ea7249fb0ca597f276561edc1b9e49.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.e58380eba0ea7249fb0ca597f276561edc1b9e49.001.1",
+        "areaDesc": "Northern La Porte; Eastern St. Joseph; Southern La Porte; Western St. Joseph; Cass; Northern Berrien; Southern Berrien",
+        "geocode": {
+          "SAME": [
+            "018091",
+            "018141",
+            "026027",
+            "026021"
+          ],
+          "UGC": [
+            "INZ103",
+            "INZ104",
+            "INZ203",
+            "INZ204",
+            "MIZ078",
+            "MIZ177",
+            "MIZ277"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/INZ103",
+          "https://api.weather.gov/zones/forecast/INZ104",
+          "https://api.weather.gov/zones/forecast/INZ203",
+          "https://api.weather.gov/zones/forecast/INZ204",
+          "https://api.weather.gov/zones/forecast/MIZ078",
+          "https://api.weather.gov/zones/forecast/MIZ177",
+          "https://api.weather.gov/zones/forecast/MIZ277"
+        ],
+        "references": [],
+        "sent": "2024-11-20T15:29:00-05:00",
+        "effective": "2024-11-20T15:29:00-05:00",
+        "onset": "2024-11-20T15:29:00-05:00",
+        "expires": "2024-11-21T06:30:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Northern Indiana",
+        "headline": "Special Weather Statement issued November 20 at 3:29PM EST by NWS Northern Indiana",
+        "description": "Lake effect snow showers are expected to develop late this evening\nand especially during the overnight hours. Some light\naccumulations of generally an inch or less are possible by\ndaybreak, mainly across grassy surfaces. There is a greater chance\nof travel impacts on Thursday as an area of widespread snow\naffects the area. Slushy snow accumulations of 1 to 3 inches are\nexpected Thursday. It will also become windy on Thursday with\nwest to southwest gusts to 30 to 35 mph. The combination of snow\nand windy conditions may result in limited visibilities at times.\nWith initially warmer ground conditions and temperatures hovering\naround the freezing mark, confidence remains low in how much snow\nwill accumulate on roadways, but motorists should be alert to the\npossibility of some slick conditions during the period of greatest\nsnowfall rates later Thursday morning through mid to late\nafternoon. The snow is expected to change back to rain late\nThursday afternoon into Thursday evening.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+          "AWIPSidentifier": [
+            "SPSIWX"
+          ],
+          "WMOidentifier": [
+            "WWUS83 KIWX 202029"
+          ],
+          "NWSheadline": [
+            "Lake effect snow showers tonight, then snow with windy conditions for Thursday"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e58380eba0ea7249fb0ca597f276561edc1b9e49.002.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e58380eba0ea7249fb0ca597f276561edc1b9e49.002.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.e58380eba0ea7249fb0ca597f276561edc1b9e49.002.1",
+        "areaDesc": "Elkhart; Lagrange; Noble; Starke; Pulaski; Marshall; Fulton; Whitley; White; Cass; Miami; Wabash; Huntington; Grant; Northern Kosciusko; Southern Kosciusko; St. Joseph",
+        "geocode": {
+          "SAME": [
+            "018039",
+            "018087",
+            "018113",
+            "018149",
+            "018131",
+            "018099",
+            "018049",
+            "018183",
+            "018181",
+            "018017",
+            "018103",
+            "018169",
+            "018069",
+            "018053",
+            "018085",
+            "026149"
+          ],
+          "UGC": [
+            "INZ005",
+            "INZ006",
+            "INZ008",
+            "INZ012",
+            "INZ013",
+            "INZ014",
+            "INZ015",
+            "INZ017",
+            "INZ020",
+            "INZ022",
+            "INZ023",
+            "INZ024",
+            "INZ025",
+            "INZ032",
+            "INZ116",
+            "INZ216",
+            "MIZ079"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/INZ005",
+          "https://api.weather.gov/zones/forecast/INZ006",
+          "https://api.weather.gov/zones/forecast/INZ008",
+          "https://api.weather.gov/zones/forecast/INZ012",
+          "https://api.weather.gov/zones/forecast/INZ013",
+          "https://api.weather.gov/zones/forecast/INZ014",
+          "https://api.weather.gov/zones/forecast/INZ015",
+          "https://api.weather.gov/zones/forecast/INZ017",
+          "https://api.weather.gov/zones/forecast/INZ020",
+          "https://api.weather.gov/zones/forecast/INZ022",
+          "https://api.weather.gov/zones/forecast/INZ023",
+          "https://api.weather.gov/zones/forecast/INZ024",
+          "https://api.weather.gov/zones/forecast/INZ025",
+          "https://api.weather.gov/zones/forecast/INZ032",
+          "https://api.weather.gov/zones/forecast/INZ116",
+          "https://api.weather.gov/zones/forecast/INZ216",
+          "https://api.weather.gov/zones/forecast/MIZ079"
+        ],
+        "references": [],
+        "sent": "2024-11-20T15:29:00-05:00",
+        "effective": "2024-11-20T15:29:00-05:00",
+        "onset": "2024-11-20T15:29:00-05:00",
+        "expires": "2024-11-21T06:30:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Northern Indiana",
+        "headline": "Special Weather Statement issued November 20 at 3:29PM EST by NWS Northern Indiana",
+        "description": "Scattered light snow showers are expected to develop tonight, but\nlittle in the way of snow accumulation is expected. Widespread\nsnow is then expected to overspread the area on Thursday. Slushy\nsnow accumulations of an inch or two are expected Thursday. It\nwill also become windy on Thursday with west to southwest gusts to\n30 to 35 mph. The combination of snow and windy conditions may\nresult in limited visibilities at times. With initially warmer\nground conditions and temperatures hovering around the freezing\nmark, confidence remains low in how much snow will accumulate on\nroadways Thursday, but motorists should be alert to the\npossibility of some slick conditions during the period of greatest\nsnowfall rates from midday Thursday through late Thursday\nafternoon.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+          "AWIPSidentifier": [
+            "SPSIWX"
+          ],
+          "WMOidentifier": [
+            "WWUS83 KIWX 202029"
+          ],
+          "NWSheadline": [
+            "Snow likely on Thursday with windy conditions"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.444aab26b94de6ad73a6df56079417dab6118eee.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.444aab26b94de6ad73a6df56079417dab6118eee.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.444aab26b94de6ad73a6df56079417dab6118eee.001.1",
+        "areaDesc": "Carroll; Warren; Tippecanoe; Clinton; Howard; Fountain; Montgomery; Boone; Tipton; Hamilton; Madison; Delaware; Randolph; Vermillion; Parke; Putnam; Hendricks; Marion; Hancock; Henry; Morgan; Johnson; Shelby; Rush; Decatur",
+        "geocode": {
+          "SAME": [
+            "018015",
+            "018171",
+            "018157",
+            "018023",
+            "018067",
+            "018045",
+            "018107",
+            "018011",
+            "018159",
+            "018057",
+            "018095",
+            "018035",
+            "018135",
+            "018165",
+            "018121",
+            "018133",
+            "018063",
+            "018097",
+            "018059",
+            "018065",
+            "018109",
+            "018081",
+            "018145",
+            "018139",
+            "018031"
+          ],
+          "UGC": [
+            "INZ021",
+            "INZ028",
+            "INZ029",
+            "INZ030",
+            "INZ031",
+            "INZ035",
+            "INZ036",
+            "INZ037",
+            "INZ038",
+            "INZ039",
+            "INZ040",
+            "INZ041",
+            "INZ042",
+            "INZ043",
+            "INZ044",
+            "INZ045",
+            "INZ046",
+            "INZ047",
+            "INZ048",
+            "INZ049",
+            "INZ054",
+            "INZ055",
+            "INZ056",
+            "INZ057",
+            "INZ065"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/INZ021",
+          "https://api.weather.gov/zones/forecast/INZ028",
+          "https://api.weather.gov/zones/forecast/INZ029",
+          "https://api.weather.gov/zones/forecast/INZ030",
+          "https://api.weather.gov/zones/forecast/INZ031",
+          "https://api.weather.gov/zones/forecast/INZ035",
+          "https://api.weather.gov/zones/forecast/INZ036",
+          "https://api.weather.gov/zones/forecast/INZ037",
+          "https://api.weather.gov/zones/forecast/INZ038",
+          "https://api.weather.gov/zones/forecast/INZ039",
+          "https://api.weather.gov/zones/forecast/INZ040",
+          "https://api.weather.gov/zones/forecast/INZ041",
+          "https://api.weather.gov/zones/forecast/INZ042",
+          "https://api.weather.gov/zones/forecast/INZ043",
+          "https://api.weather.gov/zones/forecast/INZ044",
+          "https://api.weather.gov/zones/forecast/INZ045",
+          "https://api.weather.gov/zones/forecast/INZ046",
+          "https://api.weather.gov/zones/forecast/INZ047",
+          "https://api.weather.gov/zones/forecast/INZ048",
+          "https://api.weather.gov/zones/forecast/INZ049",
+          "https://api.weather.gov/zones/forecast/INZ054",
+          "https://api.weather.gov/zones/forecast/INZ055",
+          "https://api.weather.gov/zones/forecast/INZ056",
+          "https://api.weather.gov/zones/forecast/INZ057",
+          "https://api.weather.gov/zones/forecast/INZ065"
+        ],
+        "references": [],
+        "sent": "2024-11-20T14:28:00-05:00",
+        "effective": "2024-11-20T14:28:00-05:00",
+        "onset": "2024-11-20T14:28:00-05:00",
+        "expires": "2024-11-21T03:30:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Indianapolis IN",
+        "headline": "Special Weather Statement issued November 20 at 2:28PM EST by NWS Indianapolis IN",
+        "description": "2 rounds of snow expected across much of central Indiana. The\nfirst round will begin late tonight and end by mid-morning with\namounts of less than an inch. Heavier snow will arrive mid to late\nafternoon and may impact the evening commute.\n\nTotal snow is likely to be between 1 and 3 inches with some\nlocally higher amounts. Accumulations will be highest on grassy\nand elevated surfaces with slushy road conditions due to warm\nground temperatures.\n\nSlow down, drive carefully, and allow extra time to\nreach your destination.",
+        "instruction": null,
+        "response": "Execute",
+        "parameters": {
+          "AWIPSidentifier": [
+            "SPSIND"
+          ],
+          "WMOidentifier": [
+            "WWUS83 KIND 201928"
+          ],
+          "NWSheadline": [
+            "FIRST SNOW OF THE SEASON LATE TONIGHT INTO TOMORROW"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ]
+        }
+      }
+    }
+  ],
+  "title": "Current watches, warnings, and advisories for Indiana",
+  "updated": "2024-11-20T21:19:45+00:00"
+}

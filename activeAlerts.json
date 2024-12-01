@@ -1,0 +1,171 @@
+{
+    "@context": [
+        "https://geojson.org/geojson-ld/geojson-context.jsonld",
+        {
+            "@version": "1.1",
+            "wx": "https://api.weather.gov/ontology#",
+            "@vocab": "https://api.weather.gov/ontology#"
+        }
+    ],
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.788b138246e61962b37e34110708b60d4f477626.001.1",
+            "type": "Feature",
+            "geometry": null,
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.788b138246e61962b37e34110708b60d4f477626.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.788b138246e61962b37e34110708b60d4f477626.001.1",
+                "areaDesc": "Jefferson; Wayne; Edwards; Wabash; Perry; Franklin; Hamilton; White; Jackson; Williamson; Saline; Gallatin; Johnson; Pope; Hardin; Gibson; Pike; Posey; Vanderburgh; Warrick; Spencer; Livingston; Crittenden; Caldwell; Union; Webster; Hopkins; Christian; Henderson; Daviess; McLean; Muhlenberg; Todd",
+                "geocode": {
+                    "SAME": [
+                        "017081",
+                        "017191",
+                        "017047",
+                        "017185",
+                        "017145",
+                        "017055",
+                        "017065",
+                        "017193",
+                        "017077",
+                        "017199",
+                        "017165",
+                        "017059",
+                        "017087",
+                        "017151",
+                        "017069",
+                        "018051",
+                        "018125",
+                        "018129",
+                        "018163",
+                        "018173",
+                        "018147",
+                        "021139",
+                        "021055",
+                        "021033",
+                        "021225",
+                        "021233",
+                        "021107",
+                        "021047",
+                        "021101",
+                        "021059",
+                        "021149",
+                        "021177",
+                        "021219"
+                    ],
+                    "UGC": [
+                        "ILZ075",
+                        "ILZ076",
+                        "ILZ077",
+                        "ILZ078",
+                        "ILZ080",
+                        "ILZ081",
+                        "ILZ082",
+                        "ILZ083",
+                        "ILZ084",
+                        "ILZ085",
+                        "ILZ086",
+                        "ILZ087",
+                        "ILZ089",
+                        "ILZ090",
+                        "ILZ091",
+                        "INZ081",
+                        "INZ082",
+                        "INZ085",
+                        "INZ086",
+                        "INZ087",
+                        "INZ088",
+                        "KYZ007",
+                        "KYZ010",
+                        "KYZ013",
+                        "KYZ014",
+                        "KYZ015",
+                        "KYZ016",
+                        "KYZ017",
+                        "KYZ018",
+                        "KYZ019",
+                        "KYZ020",
+                        "KYZ021",
+                        "KYZ022"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/forecast/ILZ075",
+                    "https://api.weather.gov/zones/forecast/ILZ076",
+                    "https://api.weather.gov/zones/forecast/ILZ077",
+                    "https://api.weather.gov/zones/forecast/ILZ078",
+                    "https://api.weather.gov/zones/forecast/ILZ080",
+                    "https://api.weather.gov/zones/forecast/ILZ081",
+                    "https://api.weather.gov/zones/forecast/ILZ082",
+                    "https://api.weather.gov/zones/forecast/ILZ083",
+                    "https://api.weather.gov/zones/forecast/ILZ084",
+                    "https://api.weather.gov/zones/forecast/ILZ085",
+                    "https://api.weather.gov/zones/forecast/ILZ086",
+                    "https://api.weather.gov/zones/forecast/ILZ087",
+                    "https://api.weather.gov/zones/forecast/ILZ089",
+                    "https://api.weather.gov/zones/forecast/ILZ090",
+                    "https://api.weather.gov/zones/forecast/ILZ091",
+                    "https://api.weather.gov/zones/forecast/INZ081",
+                    "https://api.weather.gov/zones/forecast/INZ082",
+                    "https://api.weather.gov/zones/forecast/INZ085",
+                    "https://api.weather.gov/zones/forecast/INZ086",
+                    "https://api.weather.gov/zones/forecast/INZ087",
+                    "https://api.weather.gov/zones/forecast/INZ088",
+                    "https://api.weather.gov/zones/forecast/KYZ007",
+                    "https://api.weather.gov/zones/forecast/KYZ010",
+                    "https://api.weather.gov/zones/forecast/KYZ013",
+                    "https://api.weather.gov/zones/forecast/KYZ014",
+                    "https://api.weather.gov/zones/forecast/KYZ015",
+                    "https://api.weather.gov/zones/forecast/KYZ016",
+                    "https://api.weather.gov/zones/forecast/KYZ017",
+                    "https://api.weather.gov/zones/forecast/KYZ018",
+                    "https://api.weather.gov/zones/forecast/KYZ019",
+                    "https://api.weather.gov/zones/forecast/KYZ020",
+                    "https://api.weather.gov/zones/forecast/KYZ021",
+                    "https://api.weather.gov/zones/forecast/KYZ022"
+                ],
+                "references": [],
+                "sent": "2024-12-01T12:38:00-06:00",
+                "effective": "2024-12-01T12:38:00-06:00",
+                "onset": "2024-12-01T12:38:00-06:00",
+                "expires": "2024-12-02T04:00:00-06:00",
+                "ends": null,
+                "status": "Actual",
+                "messageType": "Alert",
+                "category": "Met",
+                "severity": "Moderate",
+                "certainty": "Observed",
+                "urgency": "Expected",
+                "event": "Special Weather Statement",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Paducah KY",
+                "headline": "Special Weather Statement issued December 1 at 12:38PM CST by NWS Paducah KY",
+                "description": "Another albeit much weaker upper air disturbance will impact the\nregion Monday, with the potential of producing a light snowfall\ndusting up to an inch possibly in isolated locales.\n\nThe snow will hit southern Illinois tomorrow morning, and impact\nsouthwest Indiana and the Pennyrile region of western Kentucky by\ntomorrow afternoon.\n\nAllow a little extra time and drive carefully just in case\ntemperatures are near or below freezing when moisture makes\ncontact with the road surface. Stay abreast of the latest updates\nand forecasts for any changes to this system.",
+                "instruction": null,
+                "response": "Execute",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "SPSPAH"
+                    ],
+                    "WMOidentifier": [
+                        "WWUS83 KPAH 011838"
+                    ],
+                    "NWSheadline": [
+                        "LIGHT DUSTING OF SNOWFALL POSSIBLE MONDAY"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ]
+                }
+            }
+        }
+    ],
+    "title": "Current watches, warnings, and advisories for Indiana",
+    "updated": "2024-12-01T18:38:31+00:00"
+}
